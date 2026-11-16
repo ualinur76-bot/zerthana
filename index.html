@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html><head><meta charset=utf8><meta id=vpMeta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><script>(function(){var M=440;function fit(){var m=document.getElementById('vpMeta');if(!m)return;var w=Math.min(screen.width,screen.height);if(Math.abs(window.orientation||0)===90||(screen.orientation&&/landscape/.test(screen.orientation.type)))w=Math.max(screen.width,screen.height);if(w<M){m.setAttribute('content','width='+M+',initial-scale='+(w/M).toFixed(3)+',viewport-fit=cover');}else{m.setAttribute('content','width=device-width,initial-scale=1,viewport-fit=cover');}}fit();window.addEventListener('orientationchange',function(){setTimeout(fit,150)});})();</script><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Электр зертханасы</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
@@ -774,56 +774,6 @@ tr.rec-flash td{background:#fff4c2!important;transition:background .3s}
 .about-author{font-size:16px;margin-top:6px}
 @media (max-width:880px){.auth-author{margin-top:6px!important}}
 
-/* ===== Телефонға бейімдеу (түзетулер) ===== */
-.lab-wrap{grid-template-columns:minmax(0,1fr)!important}
-.lab-wrap>*{min-width:0}
-.g2{grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr))}
-.g3{grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr))}
-.icards{grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr))}
-.top3{grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr))}
-input[type=file]{max-width:100%}
-body{overflow-x:clip}
-h1,h2,h3,.auth-h,.tbar-title,.choice b{overflow-wrap:break-word}
-.auth-brand,.auth-card{min-width:0}
-@media (max-width:880px){.auth-wrap{grid-template-columns:minmax(0,1fr)}}
-@media (max-width:560px){
-  .auth-brand .logo{font-size:15px;white-space:normal;align-items:center}
-  .auth-brand .logo svg{width:36px;height:36px}
-  .auth-brand .logo>div{min-width:0}
-  .auth-brand h2{font-size:clamp(20px,6.4vw,26px)}
-  .auth-brand p{font-size:15px}
-  .auth-h{font-size:19px}
-  .choice{padding:14px}
-  .choice b{font-size:17px}
-  .rcode{font-size:24px;letter-spacing:2px}
-  .topic-hero h1{font-size:clamp(19px,6vw,23px)}
-  .sec-head h1,.cab-bar h1{font-size:clamp(19px,6vw,22px)}
-}
-@media (max-width:560px){
-  .topbar{gap:6px;padding:6px 8px}
-  .topbar .logo svg{width:32px;height:32px}
-  .who{flex:1 1 0;min-width:0;padding:0 2px}
-  .who-name{display:block;max-width:100%}
-  .who-sub{overflow:hidden;text-overflow:ellipsis}
-  .tb-spacer{order:4;flex:0 0 100%;height:0}
-  .topbar:has(#progWrap[hidden]) .tb-spacer{display:none}
-  .tb-progress{order:5;flex:1 1 0;flex-basis:0;min-width:0;max-width:none}
-  .tb-points{order:6;padding:2px 8px;font-size:14px}
-  .icon-btn{min-width:38px;height:38px;padding:0 8px}
-  .ttabs button{padding:10px 12px 8px;font-size:14.5px;min-height:42px}
-  .tbl{font-size:13.5px}
-  .tbl th,.tbl td{padding:4px 3px}
-  .tbl td input{min-width:44px;padding:6px 3px}
-  .given-row2{grid-template-columns:minmax(0,1.3fr) auto minmax(0,.9fr) minmax(0,1.1fr)}
-  .given-row2 select,.given-row2 input{padding:8px 3px;font-size:14px}
-  #board{min-width:0}
-  .mode-tabs button{min-width:0}
-  .tool{flex:1 1 140px}
-  .toast-wrap{left:12px;right:12px;bottom:12px;max-width:none}
-  .modal-bg{padding:8px}
-  .modal{padding:14px;max-height:94vh}
-  .pick-menu{max-width:calc(100vw - 32px)}
-}
 </style>
 
 <a class="skip" href="#main">Негізгі мазмұнға өту</a>
@@ -895,6 +845,65 @@ h1,h2,h3,.auth-h,.tbar-title,.choice b{overflow-wrap:break-word}
 </div>
 <div class="toast-wrap" id="toasts" aria-live="polite"></div>
 <noscript><div style="padding:20px;background:#fff3e0">Платформа жұмыс істеуі үшін браузерде JavaScript қосулы болуы керек.</div></noscript>
+<script>
+/* ===== Vercel + Upstash ортақ дерекқоры (window.claude.use('db') орнына) ===== */
+(function () {
+  if (window.claude && typeof window.claude.use === 'function') return;
+  async function call(body) {
+    const r = await fetch('/api/db', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), cache: 'no-store' });
+    let j = null; try { j = await r.json(); } catch (e) {}
+    if (!r.ok || !j || j.error) throw (j && j.error) || { code: 'unavailable', message: 'HTTP ' + r.status };
+    return j;
+  }
+  const snap = (id, d) => ({ id, exists: d != null, data: () => (d == null ? undefined : JSON.parse(JSON.stringify(d))) });
+  function doc(path) {
+    const id = path.split('/').pop();
+    return {
+      id, path,
+      async get() { const j = await call({ op: 'get', path }); return snap(id, j.data); },
+      async set(data) { await call({ op: 'set', path, data }); },
+      async update(data) { await call({ op: 'update', path, data }); },
+      async delete() { await call({ op: 'delete', path }); }
+    };
+  }
+  function query(coll, where) {
+    return {
+      where(f, op, v) { return query(coll, where.concat([[f, op, v]])); },
+      doc(id) { return doc(coll + '/' + id); },
+      async get() {
+        const j = await call({ op: 'list', coll, where });
+        const docs = j.docs.map(d => snap(d.id, d.data));
+        return { docs, size: docs.length, empty: !docs.length, forEach: fn => docs.forEach(fn) };
+      },
+      onSnapshot(cb, onErr) {
+        let stop = false, last = '';
+        const tick = async () => {
+          if (stop) return;
+          try { const s = await this.get(); const k = JSON.stringify(s.docs.map(d => [d.id, d.data()])); if (k !== last) { last = k; cb(s); } }
+          catch (e) { if (onErr) try { onErr(e); } catch (_) {} }
+          if (!stop) setTimeout(tick, 5000);
+        };
+        tick();
+        return () => { stop = true; };
+      }
+    };
+  }
+  const db = { doc, collection: c => query(c, []) };
+  const sid = () => { try { return (typeof Session !== 'undefined' && Session.id) || null; } catch (e) { return null; } };
+  const user = { id: async () => sid(), can: async () => true, canEdit: async () => false };
+  let ok = null;
+  window.claude = {
+    async use(name) {
+      if (name === 'db') {
+        if (ok === null) ok = call({ op: 'ping' }).then(() => true, () => false);
+        return (await ok) ? db : null;
+      }
+      if (name === 'user') return user;
+      return null;
+    }
+  };
+})();
+</script>
 <script>
 'use strict';
 /* =====================================================================
@@ -4954,7 +4963,6 @@ function go(id, opts) {
   try { const tok = tab ? (S.curTopic || 't1') + '/' + tab : id; if (location.hash !== '#' + tok) history[opts && (opts.fromPop || opts.replace) ? 'replaceState' : 'pushState'](null, '', '#' + tok); } catch (e) {}
   $('#sidenav').classList.remove('open'); $('#menuToggle').setAttribute('aria-expanded', 'false');
   window.scrollTo({top:0});
-  try { const at = el.querySelector('.ttabs [aria-selected="true"]'); if (at) { const tl = at.parentElement; tl.scrollLeft = at.offsetLeft - tl.offsetLeft - (tl.clientWidth - at.offsetWidth) / 2; } } catch (e) {}
   const h = el.querySelector('h1'); if (h && opts && opts.focus !== false) { h.setAttribute('tabindex', '-1'); h.focus({preventScroll:true}); }
 }
 const stateDot = st => `<span class="tdot ${st}" aria-hidden="true"></span>`;
